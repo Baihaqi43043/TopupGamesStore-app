@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}" defer></script>
     <title>games</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     @stack('link')
@@ -36,61 +36,40 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                    <li class="nav-item">
                         <a class="nav-link  d-flex align-items-center" aria-current="page" href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                class="bi bi-search" viewBox="0 0 16 16">
+                                class="bi bi-search-heart-fill" viewBox="0 0 16 16">
                                 <path
-                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
                             </svg>
                             <span>Check Invoice</span>
                         </a>
                     </li>
-                    </li>
                     <li class="nav-item dropdown">
                         <button class="btn nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-                            </svg>
+                            <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
                                 <button class="dropdown-item d-flex align-items-center" type="button"
                                     data-bs-theme-value="light" aria-expanded="false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-sun-fill me-2 opacity-50"
-                                        data-theme-icon="bi-sun-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-                                    </svg>
-                                    <span>Light</span>
+                                    <i class="bi bi-sun-fill me-2 opacity-50" data-theme-icon="bi-sun-fill"></i>
+                                    Light
                                 </button>
                             </li>
                             <li>
                                 <button class="dropdown-item d-flex align-items-center" type="button"
                                     data-bs-theme-value="dark" aria-expanded="false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-moon-fill me-2 opacity-50"
-                                        data-theme-icon="bi-moon-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-                                    </svg>
-                                    <span>Dark</span>
+                                    <i class="bi bi-moon-fill me-2 opacity-50" data-theme-icon="bi-moon-fill"></i>
+                                    Dark
                                 </button>
                             </li>
                             <li>
                                 <button class="dropdown-item d-flex align-items-center" type="button"
                                     data-bs-theme-value="auto" aria-expanded="false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-circle-half me-2 opacity-50 "
-                                        data-theme-icon="bi-circle-half" viewBox="0 0 16 16">
-                                        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-                                    </svg>
-                                    <span>Auto</span>
+                                    <i class="bi bi-circle-half me-2 opacity-50" data-theme-icon="bi-circle-half"></i>
+                                    Auto
                                 </button>
                             </li>
                         </ul>
@@ -102,10 +81,8 @@
     <main class="py-4">
         @yield('content')
     </main>
-    @stack('custom-script')
 
-    @stack('link-script')
-    {{-- <script>
+    <script>
         /*!
          * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
          * Copyright 2011-2022 The Bootstrap Authors
@@ -136,9 +113,9 @@
             setTheme(getPreferredTheme())
 
             const showActiveTheme = theme => {
-                const activeThemeIcon = document.querySelector('.theme-icon-active use')
+                const activeThemeIcon = document.querySelector('.theme-icon-active')
                 const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
-                const svgOfActiveBtn = btnToActive.querySelector('svg use').dataset.themeIcon
+                const iconOfActiveBtn = btnToActive.querySelector('i').dataset.themeIcon
 
                 document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
                     element.classList.remove('active')
@@ -147,7 +124,7 @@
                 btnToActive.classList.add('active')
                 activeThemeIcon.classList.remove(activeThemeIcon.dataset.themeIconActive)
                 activeThemeIcon.classList.add(iconOfActiveBtn)
-                activeThemeIcon.dataset.iconOfActiveBtn = iconOfActiveBtn
+                activeThemeIcon.dataset.iconActive = iconOfActiveBtn
             }
 
             window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
@@ -170,7 +147,12 @@
                     })
             })
         })()
-    </script> --}}
+    </script>
+    @stack('custom-script')
+
+    @stack('link-script')
+
+
 </body>
 
 </html>
