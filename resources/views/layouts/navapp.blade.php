@@ -81,7 +81,80 @@
     <main class="py-4">
         @yield('content')
     </main>
-
+    <footer class="mt-auto border-dark shadow-lg">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h5 class="text-uppercase mt-2">Games Store</h5>
+                    <div class="mt-2">
+                        <p>GAMES STORE adalah tempat top up games yang aman, murah dan terpercaya. Proses cepat 1-3
+                            Detik. Open 24 jam. Payment terlengkap. Jika ada kendala silahkan klik logo CS pada kanan
+                            bawah di website ini.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h5 class="text-uppercase mt-2">menu</h5>
+                    <div class="mt-2">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="" class="nav-link active"
+                                    style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
+                                    <i class="bi bi-arrow-right-circle"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href=""
+                                    class="nav-link"style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
+                                    <i class="bi bi-arrow-right-circle"></i>
+                                    Check Invoice
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h5 class="mt-2 text-uppercase">other service</h5>
+                    <div class="mt-2">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="" class="nav-link active"
+                                    style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
+                                    <i class="bi bi-arrow-right-circle"></i>
+                                    Mobile Legends
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-2">
+            <div class="row">
+                <div class="col">
+                    <div class="container mt-2 mb-2 text-center">
+                        <p>
+                            Copyright © 2023 by
+                            <a href="" class=""
+                                style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">GAMES
+                                STORE
+                            </a>
+                            All Rights Reserved -
+                            <a href="" class=""
+                                style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
+                                Terms and conditions
+                            </a>
+                            -
+                            <a href="" class=""
+                                style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
+                                Privacy Policy
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script>
         /*!
          * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
