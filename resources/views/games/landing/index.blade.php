@@ -55,7 +55,66 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mt-4">
                 <h5 class="text-uppercase">top up <i class="bi bi-gem"></i></h5>
-
+            </div>
+            <div class="col-lg-8 mx-auto mt-4">
+                <div class="row row-cols-3 row-cols-md-6 justify-content-center">
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card  shadow h-100" style="max-width: 100% ; cursor: pointer;">
+                            <img src="{{ asset('assets/games/ml.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body py-md-0 pb-3  d-lg-block text-center mt-3">
+                                <p class="text-sm">Mobile Legends Bang Bang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
