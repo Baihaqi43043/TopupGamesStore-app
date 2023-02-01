@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color: var(--bs-body-bg);">
+    <nav class="navbar navbar-expand-lg sticky-top shadow" style="background-color: var(--bs-body-bg);">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="#">Navbar</a>
+            <a class="navbar-brand ms-5" href="{{ url('/games') }}">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon ms-auto"></span>
@@ -25,7 +25,8 @@
             <div class="collapse navbar-collapse text-right" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-5 fs-6 ">
                     <li class="nav-item">
-                        <a class="nav-link active d-flex align-items-center" aria-current="page" href="#">
+                        <a class="nav-link active d-flex align-items-center" aria-current="page"
+                            href="{{ url('/games') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                                 class="bi bi-house-fill" viewBox="0 0 16 16">
                                 <path
@@ -36,7 +37,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  d-flex align-items-center" aria-current="page" href="#">
+                        <a class="nav-link  d-flex align-items-center" aria-current="page"
+                            href="{{ url('/checkinvoice') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                                 class="bi bi-search-heart-fill" viewBox="0 0 16 16">
                                 <path
@@ -97,14 +99,14 @@
                     <div class="mt-2">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a href="" class="nav-link active"
+                                <a href="{{ url('/games') }}" class="nav-link active"
                                     style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
                                     <i class="bi bi-arrow-right-circle"></i>
                                     Home
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href=""
+                                <a href="{{ url('/checkinvoice') }}"
                                     class="nav-link"style="background-color: var(--bs-body-bg); color: var(--bs-light-text);">
                                     <i class="bi bi-arrow-right-circle"></i>
                                     Check Invoice

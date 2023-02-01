@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/games', function () {
     return view('games.landing.index');
 });
+
+Route::get('/checkinvoice', function () {
+    return view('games.checkinvoice.index');
+});
